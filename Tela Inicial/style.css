@@ -1,0 +1,34 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: azure;
+}
+
+.containerItens{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   position: relative;
+   margin-top: 200px;
+}
+
+.itens{
+   width: 200px;
+   height: 200px;
+   background-color: aquamarine;
+   margin: 30px;
+   position: relative;
+   border-radius: 20px;
+}
+
+.itens p{
+   position: absolute;
+   top: 35%;
+   left: 35%;
+}
+
+.itens:hover{
+   width: 230px;
+   height: 230px;
+   box-shadow: 20px;
+}

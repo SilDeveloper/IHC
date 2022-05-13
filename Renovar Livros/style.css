@@ -1,0 +1,109 @@
+/*cor1:#D1C6AD
+cor2:#3B1C32
+cor3:#BBADA0
+cor4:#19647E
+*/
+body{
+    background-color: #BBADA0;
+}
+.categoria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content:flex-end;
+
+}
+.categoria p{
+    margin-right: 20px;
+}
+
+.form-control{
+    width: 500px;
+    margin-left: 35%;
+}
+
+.form-label{
+    margin-left: 35%;
+}
+
+.text-input-1 {
+	width: 390px;
+	height: 32px;
+	padding: 4px 8px 4px 8px;
+	background: #ffffff;
+	color: #c0c0c0;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+}
+
+.input-group{
+	margin-left: 20%;
+	margin-top: 50px;
+	width: 800px;
+}
+
+.buttonConfirm{
+	margin-left: 45%;
+	margin-top: 50px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+  }
+
+  .conteiner{
+	  border: solid;
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	  justify-content:center;
+	  position: relative;
+	  margin-top: 200px;
+	  width: 200;
+	  height: 200;
+	  
+  }
+
+  .menu-lateral{
+	  display: flex ;
+	width: 200px;
+	height: 100px;
+	background-color: rgb(221, 213, 213);
+	position: relative;
+	margin: 5px;
+	border-radius: 20px;
+  }
+
+  .menu-lateral h4{
+	  margin-left: 30px;
+	  position: relative;
+		top: 30%;
+		left: 0%;
+	
+  }
+
+  .menu-lateral hr{
+	position: relative;
+	top: 30%;
+	left: 0%;
+  }
+  .menu-lateral button{
+	position: relative;
+	top: 0%;
+	right: 20%;
+	opacity: 0;
+  }
